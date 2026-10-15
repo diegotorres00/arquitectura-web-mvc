@@ -27,6 +27,14 @@
             <version>8.0.33</version>
         </dependency>
 
+<!-- API de Java Servlets (Compatible con Tomcat 9) -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+    
         <!-- Driver de PostgreSQL -->
         <dependency>
             <groupId>org.postgresql</groupId>
